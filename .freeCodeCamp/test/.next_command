@@ -372,3 +372,8 @@ pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
 ./queries.sh
 ./queries.sh
 ./queries.sh
+git remote add origin https://github.com/phuocqt/FFC_woldcup_database.git
+git remote remove origin
+git remote add origin https://github.com/phuocqt/FFC_woldcup_database.git
+git commit -m "create repo"
+git add .
